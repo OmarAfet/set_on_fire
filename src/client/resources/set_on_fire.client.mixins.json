@@ -3,7 +3,7 @@
 	"package": "omarafet.set_on_fire.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"SetOnFireClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

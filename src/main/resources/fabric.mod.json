@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"omarafet.set_on_fire.ExampleMod"
+			"omarafet.set_on_fire.SetOnFire"
 		],
 		"client": [
-			"omarafet.set_on_fire.ExampleModClient"
+			"omarafet.set_on_fire.SetOnFireClient"
 		]
 	},
 	"mixins": [
