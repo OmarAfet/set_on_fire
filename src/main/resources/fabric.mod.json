@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "set_on_fire",
+	"version": "${version}",
+	"name": "Set On Fire",
+	"description": "Set entities on fire by right-clicking them with a flint and steel.",
+	"authors": [
+		"omarafet"
+	],
+	"contact": {
+		"homepage": "https://github.com/omarafet/set_on_fire",
+		"sources": "https://github.com/omarafet/set_on_fire"
+	},
+	"license": "MIT",
+	"icon": "assets/set_on_fire/set_on_fire_icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"omarafet.set_on_fire.ExampleMod"
+		],
+		"client": [
+			"omarafet.set_on_fire.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"set_on_fire.mixins.json",
+		{
+			"config": "set_on_fire.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
